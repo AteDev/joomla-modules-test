@@ -17,6 +17,138 @@
 
 	<config>
 		<fields name="params">
+			<fieldset name="tab1" label="TAB 1">
+				<field type="radio" class="btn-group" name="tab_state_1" default="0" label="Show Tab" description="Show Tab"></field>
+				<field type="spacer" name="spacer_tab_1" label="&lt;h3&gt; Accordion Tab 1 Parameters &lt;/h3&gt;&lt;hr/&gt;" />
+				<field type="text" name="tab_title_1" default="" label="Title" description="Enter Tab title" />
+				<field type="radio" class="btn-group" name="title_state_1" default="1" label="Show Title" description="Show Title"></field>
+				<field type="radio" class="btn-group" name="tab_number_1" default="1" label="Show Tab Number" description="Show Tab Number"></field>
+				<field type="radio" class="btn-group" name="tab_icon_state_1" default="1" label="Show Icon" description="Show Icon"></field>
+				<field type="text" name="tab_icon_1" default="" label="Tab Icon Class &lt;br/&gt; (&lt;a href='http://fortawesome.github.io/Font-Awesome/icons/' target='_blank'&gt;Use FontAwesome Icon&lt;/a&gt;)" description="Enter FontAwesome icon Class" filter="raw" showon="tab_icon_state_1:1" />
+				<field type="radio" class="btn-group" name="tab_strip_state_1" default="1" label="Show Strip" description="Show Strip"></field>
+				<field type="text" name="tab_strip_1" label="Enter Strip Text" description="Enter Strip Text"/>
+				<field type="radio" class="btn-group" name="short_desc_state_1" default="1" label="Show Short Description" description="Show Short Description"></field>
+				<field type="text" name="short_desc_1" default="" label="Enter Short Description" description="Enter Short Description"  filter="raw" showon="short_desc_state_1:1" />
+				<field type="radio" class="btn-group" name="long_desc_state_1" default="1" label="Show Full description" description="Show Full description"></field>
+				<field type="editor" name="long_desc_1" label="Enter Full Description" description="Enter Full Description" width="300" filter="safehtml" />
+				<field type="text" name="tab_title_color_1" default="#FFFFFF" label="Tab Title Color" description="Enter Tab Title Color" />
+				<field type="text" name="tab_title_size_1" default="17px" label="Tab Title Size(px)" description="Enter Tab Title Size" />
+				<field type="text" name="tab_bgcolor_1" default="#47C5F4" label="Tab Background" description="Enter Tab Background Color" />
+				<field type="text" name="tab_short_desc_color_1" default="#FFFFFF" label="Short Desc Color" description="Enter Short description Size" />
+				<field type="text" name="tab_short_desc_size_1" default="14px" label="Short Desc Size(px)" description="Enter Short Description Size" />
+				<field type="text" name="tab_full_desc_color_1" default="#c7c7c7" label="Full Desc Color" description="Enter Full Desc Color" />
+				<field type="text" name="tab_full_desc_size_1" default="14px" label="Full Desc Size(px)" description="Enter Tab Content Size" />
+				<field type="text" name="tab_icon_color_1" default="#FFFFFF" label="Tab Icon Color" description="Enter Tab Icon Color" />
+				<field type="text" name="tab_icon_size_1" default="3.4em" label="Tab Icon Size(px)" description="Enter Tab Icon Size" />
+			</fieldset>
+			<fieldset name="tab2" label="TAB 2">
+				<field type="radio" class="btn-group" name="tab_state_2" default="0" label="Show Tab" description="Show Tab"></field>
+				<field type="spacer" name="spacer_tab_2" label="&lt;h3&gt; Accordion Tab 2 Parameters &lt;/h3&gt;&lt;hr/&gt;" />
+				<field type="text" name="tab_title_2" default="" label="Title" description="Enter Tab title" />
+				<field type="radio" class="btn-group" name="title_state_2" default="1" label="Show Title" description="Show Title"></field>
+				<field type="radio" class="btn-group" name="tab_number_2" default="1" label="Show Tab Number" description="Show Tab Number"></field>
+				<field type="radio" class="btn-group" name="tab_icon_state_2" default="1" label="Show Icon" description="Show Icon"></field>
+				<field type="text" name="tab_icon_2" default="" label="Tab Icon Class &lt;br/&gt; (&lt;a href='http://fortawesome.github.io/Font-Awesome/icons/' target='_blank'&gt;Use FontAwesome Icon&lt;/a&gt;)" description="Enter FontAwesome icon Class" filter="raw" showon="tab_icon_state_2:1" />
+				<field type="radio" class="btn-group" name="tab_strip_state_2" default="1" label="Show Strip" description="Show Strip"></field>
+				<field type="text" name="tab_strip_2" label="Enter Strip Text" description="Enter Strip Text"/>
+				<field type="radio" class="btn-group" name="short_desc_state_2" default="1" label="Show short description" description="Show short description"></field>
+				<field type="text" name="short_desc_2" default="" label="Enter Short Description" description="Enter ShortDescription" filter="raw" showon="short_desc_state_2:1" />
+				<field type="radio" class="btn-group" name="long_desc_state_2" default="1" label="Show Full description" description="Show Full description"></field>
+				<field type="editor" name="long_desc_2" label="Enter Full Description" description="Enter Full Description" width="300" filter="safehtml" />
+				<field type="text" name="tab_title_color_2" default="#FFFFFF" label="Tab Title Color" description="Enter Tab Title Color" />
+				<field type="text" name="tab_title_size_2" default="17px" label="Tab Title Size(px)" description="Enter Tab Title Size" />
+				<field type="text" name="tab_bgcolor_2" default="#1D9E74" label="Tab Background" description="Enter Tab Background Color" />
+				<field type="text" name="tab_short_desc_color_2" default="#FFFFFF" label="Short Desc Color" description="Enter Short description Size" />
+				<field type="text" name="tab_short_desc_size_2" default="14px" label="Short Desc Size(px)" description="Enter Short Description Size" />
+				<field type="text" name="tab_full_desc_color_2" default="#c7c7c7" label="Full Desc Color" description="Enter Full Desc Color" />
+				<field type="text" name="tab_full_desc_size_2" default="14px" label="Full Desc Size(px)" description="Enter Tab Content Size" />
+				<field type="text" name="tab_icon_color_2" default="#FFFFFF" label="Tab Icon Color" description="Enter Tab Icon Color" />
+				<field type="text" name="tab_icon_size_2" default="3.4em" label="Tab Icon Size(px)" description="Enter Tab Icon Size" />
+			</fieldset>
+			<fieldset name="tab3" label="TAB 3">
+				<field type="radio" class="btn-group" name="tab_state_3" default="0" label="Show Tab" description="Show Tab"></field>
+				<field type="spacer" name="spacer_tab_3" label="&lt;h3&gt; Accordion Tab 3 Parameters &lt;/h3&gt;&lt;hr/&gt;" />
+				<field type="text" name="tab_title_3" default="" label="Title" description="Enter Tab title" />
+				<field type="radio" class="btn-group" name="title_state_3" default="1" label="Show Title" description="Show Title"></field>
+				<field type="radio" class="btn-group" name="tab_number_3" default="1" label="Show Tab Number" description="Show Tab Number"></field>
+				<field type="radio" class="btn-group" name="tab_icon_state_3" default="1" label="Show Icon" description="Show Icon"></field>
+				<field type="radio" class="btn-group" name="tab_strip_state_3" default="1" label="Show Strip" description="Show Strip"></field>
+				<field type="text"  name="tab_strip_3" label="Enter Strip Text" description="Enter Strip Text"/>
+				<field type="text" name="tab_icon_3" default="" label="Tab Icon Class &lt;br/&gt; (&lt;a href='http://fortawesome.github.io/Font-Awesome/icons/' target='_blank'&gt;Use FontAwesome Icon&lt;/a&gt;)" description="Enter FontAwesome icon Class" filter="raw" showon="tab_icon_state_3:1" />
+				<field type="radio" class="btn-group" name="short_desc_state_3" default="1" label="Show short description" description="Show short description"></field>
+				<field type="text" name="short_desc_3" default="" label="Enter Short Description" description="Enter ShortDescription" filter="raw" showon="short_desc_state_3:1" />
+				<field type="radio" class="btn-group" name="long_desc_state_3" default="1" label="Show Full description" description="Show Full description"></field>
+				<field type="editor" name="long_desc_3" label="Enter Full Description" description="Enter Full Description" width="300" filter="safehtml" />
+				<field type="text" name="tab_title_color_3" default="#FFFFFF" label="Tab Title Color" description="Enter Tab Title Color" />
+				<field type="text" name="tab_title_size_3" default="17px" label="Tab Title Size(px)" description="Enter Tab Title Size" />
+				<field type="text" name="tab_bgcolor_3" default="#3D85C6" label="Tab Background" description="Enter Tab Background Color" />
+				<field type="text" name="tab_short_desc_color_3" default="#FFFFFF" label="Short Desc Color" description="Enter Short description Size" />
+				<field type="text" name="tab_short_desc_size_3" default="14px" label="Short Desc Size(px)" description="Enter Short Description Size" />
+				<field type="text" name="tab_full_desc_color_3" default="#c7c7c7" label="Full Desc Color" description="Enter Full Desc Color" />
+				<field type="text" name="tab_full_desc_size_3" default="14px" label="Full Desc Size(px)" description="Enter Tab Content Size" />
+				<field type="text" name="tab_icon_color_3" default="#FFFFFF" label="Tab Icon Color" description="Enter Tab Icon Color" />
+				<field type="text" name="tab_icon_size_3" default="3.4em" label="Tab Icon Size(px)" description="Enter Tab Icon Size" />
+			</fieldset>
+			<fieldset name="tab4" label="TAB 4">
+				<field type="radio" class="btn-group" name="tab_state_4" default="0" label="Show Tab" description="Show Tab"></field>
+				<field type="spacer" name="spacer_tab_4" label="&lt;h3&gt; Accordion Tab 4 Parameters &lt;/h3&gt;&lt;hr/&gt;" />
+				<field type="text" name="tab_title_4" default="" label="Title" description="Enter Tab title" />
+				<field type="radio" class="btn-group" name="title_state_4" default="1" label="Show Title" description="Show Title"></field>
+				<field type="radio" class="btn-group" name="tab_number_4" default="1" label="Show Tab Number" description="Show Tab Number"></field>
+				<field type="radio" class="btn-group" name="tab_icon_state_4" default="1" label="Show Icon" description="Show Icon"></field>
+				<field type="radio" class="btn-group" name="tab_strip_state_4" default="1" label="Show Strip" description="Show Strip"></field>
+				<field type="text" name="tab_strip_4" label="Enter Strip Text" description="Enter Strip Text"/>
+				<field type="text" name="tab_icon_4" default="" label="Tab Icon Class &lt;br/&gt; (&lt;a href='http://fortawesome.github.io/Font-Awesome/icons/' target='_blank'&gt;Use FontAwesome Icon&lt;/a&gt;)" description="Enter FontAwesome icon Class" filter="raw" showon="tab_icon_state_4:1" />
+				<field type="radio" class="btn-group" name="short_desc_state_4" default="1" label="Show short description" description="Show short description"></field>
+				<field type="text" name="short_desc_4" default="" label="Enter Short Description" description="Enter ShortDescription" filter="raw" showon="short_desc_state_4:1" />
+				<field type="radio" class="btn-group" name="long_desc_state_4" default="1" label="Show Full description" description="Show Full description"></field>
+				<field type="editor" name="long_desc_4" label="Enter Full Description" description="Enter Full Description" width="300" filter="safehtml" />
+				<field type="text" name="tab_title_color_4" default="#FFFFFF" label="Tab Title Color" description="Enter Tab Title Color" />
+				<field type="text" name="tab_title_size_4" default="17px" label="Tab Title Size(px)" description="Enter Tab Title Size" />
+				<field type="text" name="tab_bgcolor_4" default="#FFC0CB" label="Tab Background" description="Enter Tab Background Color" />
+				<field type="text" name="tab_short_desc_color_4" default="#FFFFFF" label="Short Desc Color" description="Enter Short description Size" />
+				<field type="text" name="tab_short_desc_size_4" default="14px" label="Short Desc Size(px)" description="Enter Short Description Size" />
+				<field type="text" name="tab_full_desc_color_4" default="#c7c7c7" label="Full Desc Color" description="Enter Full Description Color" />
+				<field type="text" name="tab_full_desc_size_4" default="14px" label="Full Desc Size(px)" description="Enter Full Description Size" />
+				<field type="text" name="tab_icon_color_4" default="#FFFFFF" label="Tab Icon Color" description="Enter Tab Icon Color" />
+				<field type="text" name="tab_icon_size_4" default="3.4em" label="Tab Icon Size(px)" description="Enter Tab Icon Size" />
+			</fieldset>
+			<fieldset name="tab5" label="TAB 5">
+				<field type="radio" class="btn-group" name="tab_state_5" default="0" label="Show Tab" description="Show Tab"></field>
+				<field type="spacer" name="spacer_tab_5" label="&lt;h3&gt; Accordion Tab 5 Parameters &lt;/h3&gt;&lt;hr/&gt;" />
+				<field type="text" name="tab_title_5" default="" label="Title" description="Enter Tab title" />
+				<field type="radio" class="btn-group" name="title_state_5" default="1" label="Show Title" description="Show Title"></field>
+				<field type="radio" class="btn-group" name="tab_number_5" default="1" label="Show Tab Number" description="Show Tab Number"></field>
+				<field type="radio" class="btn-group" name="tab_icon_state_5" default="1" label="Show Icon" description="Show Icon"></field>
+				<field type="radio" class="btn-group" name="tab_strip_state_5" default="1" label="Show Strip" description="Show Strip"></field>
+				<field type="text" name="tab_strip_5" label="Enter Strip Text" description="Enter Strip Text"/>
+				<field type="text" name="tab_icon_5" default="" label="Tab Icon Class &lt;br/&gt; (&lt;a href='http://fortawesome.github.io/Font-Awesome/icons/' target='_blank'&gt;Use FontAwesome Icon&lt;/a&gt;)" description="Enter FontAwesome icon Class" filter="raw" showon="tab_icon_state_5:1" />
+				<field type="radio" class="btn-group" name="short_desc_state_5" default="1" label="Show short description" description="Show short description"></field>
+				<field type="text" name="short_desc_5" default="" label="Enter Short Description" description="Enter ShortDescription" filter="raw" showon="short_desc_state_5:1" />
+				<field type="radio" class="btn-group" name="long_desc_state_5" default="1" label="Show Full description" description="Show Full description"></field>
+				<field type="editor" name="long_desc_5" label="Enter Full Description" description="Enter Full Description" width="300" filter="safehtml" />
+				<field type="text" name="tab_title_color_5" default="#FFFFFF" label="Tab Title Color" description="Enter Tab Title Color" />
+				<field type="text" name="tab_title_size_5" default="17px" label="Tab Title Size(px)" description="Enter Tab Title Size" />
+				<field type="text" name="tab_bgcolor_5" default="#B90000" label="Tab Background" description="Enter Tab Background Color" />
+				<field type="text" name="tab_short_desc_color_5" default="#FFFFFF" label="Short Desc Color" description="Enter Short description Size" />
+				<field type="text" name="tab_short_desc_size_5" default="14px" label="Short Desc Size(px)" description="Enter Short Description Size" />
+				<field type="text" name="tab_full_desc_color_5" default="#c7c7c7" label="Full Desc Color" description="Enter Full Desc Color" />
+				<field type="text" name="tab_full_desc_size_5" default="14px" label="Full Desc Size(px)" description="Enter Tab Content Size" />
+				<field type="text" name="tab_icon_color_5" default="#FFFFFF" label="Tab Icon Color" description="Enter Tab Icon Color" />
+				<field type="text" name="tab_icon_size_5" default="3.4em" label="Tab Icon Size(px)" description="Enter Tab Icon Size" />
+			</fieldset>
+			<fieldset name="advanced" >
+				<field type="modulelayout" name="layout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field type="textarea" name="moduleclass_sfx" rows="3" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field type="list" name="cache" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field type="text" name="cache_time" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field type="hidden" name="cachemode" default="itemid">
+					<option value="itemid"></option>
+				</field>
+			</fieldset>
 		</fields>
 	</config>
 </extension>
