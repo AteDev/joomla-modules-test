@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>MOD_TEST</name>
+	<author>AteDev</author>
+	<creationDate>05/06/2015</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<version>1.0</version>
+	<description>MOD_TEST_DESC</description>
+
+	<files>
+		<filename module="mod_test">mod_test.php</filename>
+		<folder>tmpl</folder>
+		<filename>mod_test.xml</filename>
+		<folder>language</folder>
+	</files>
+
+	<config>
+		<fields name="params">
+		</fields>
+	</config>
+</extension>
